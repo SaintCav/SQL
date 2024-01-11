@@ -1,0 +1,12 @@
+SELECT *
+FROM superstore
+ORDER BY price desc;
+
+SELECT *
+FROM superstore
+WHERE average_rating < 4.5
+ORDER BY average_rating;
+
+SELECT *
+FROM superstore
+WHERE category="Kitchen Supplies"
